@@ -1,0 +1,19 @@
+---
+title: "Human Sitemap"
+date: 2020-04-02T16:06:51+02:00
+draft: true
+---
+
+{{/*
+    Generates a site map for humans where pages and posts are listed in
+    alphabetical order.
+*/}}
+
+<h4>Sitemap</h4>
+<ul>
+{{ range (where .Site.Pages.ByTitle ".Type" "page") }}
+    <li><article itemscope itemtype="http://schema.org/Blog">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </article></li>
+{{ end }}
+</ul>

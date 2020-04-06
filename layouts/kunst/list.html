@@ -1,0 +1,11 @@
+{{ define "main" }}
+	<article>
+		{{ range .Pages }}
+			<a href="{{ .Permalink }}" class="link black dim">
+			<img src="/kunst/{{ .Params.Image  }}" height=100 weight=100 /></a>
+		{{ end }}
+	<section>
+		{{- .Content -}}
+	</section>
+	</article>
+{{ end }}

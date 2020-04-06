@@ -1,0 +1,33 @@
+ baseURL =""
+languageCode = "de-DE"
+title = "Cerxu"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 100 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = "/cerxufavicon.svg"
+  description = "cerxu, art, painting, oil on canvas, Malerei, Gemälde, Ölgemälde, Kunst, Künstler, artist, Belletristik, Lyrik, Gedichte, Gedanken, Prosa, today, heute"
+  facebook = "https://facebook.com/stephan.kubitza.1"
+  twitter = "https://twitter.com/cerxu"
+  instagram = "https://www.instagram.com/stephankubitza/"
+  youtube = ""
+  github = ""
+  gitlab = ""
+  linkedin = ""
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+
+  featured_image = ""
+  recent_posts_number = 2
+

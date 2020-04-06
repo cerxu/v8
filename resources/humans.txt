@@ -1,0 +1,23 @@
+---
+title: "Humans"
+date: 2020-04-02T14:15:23+02:00
+draft: true
+---
+
+/* Creator */
+	cerxú
+	Stephan Kubitza
+	Oberhausen, Germany, Europe
+
+/* THANKS */
+
+	Thomas J. Sojka
+	for setting up Bootstrap, Git, Hugo
+	and so much debugging
+		
+
+/* SITE */
+	Last update:2020/04/02
+	Language: Deutsch
+	Doctype:HTML5
+	IDE: GIT, Hugo, Bootstrap, Notepad++, FileZilla, Photoshop

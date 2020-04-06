@@ -1,0 +1,20 @@
+{{ define "main" }}
+       <div class="row featurette">
+             <div class="col-md-7 order-md-2">
+               <h4 class="featurette-heading">{{ .Title }}</h4>
+               <p class="lead">{{ .Params.size }}<br />{{ .Params.year }}<br />{{ .Params.price }}</p>
+             </div>
+
+             <div class="col-md-5 order-md-1">
+
+               <a href="/kunst/{{ .Params.image}}"><img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400" height="400" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="{{ .Title}}" src="/kunst/{{ .Params.image}}" /></a>
+             </div>
+
+           </div>
+           <div class="row mt-3">
+             <div class="col-md-12">
+<div class="text-center">{{- .Content -}}</div>
+               </div>
+               </div>
+
+{{ end }}

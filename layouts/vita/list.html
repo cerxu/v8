@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <article>
+      {{ range .Pages }}
+	  <a href="{{ .Permalink }}" class="link black dim">{{ .Params.Title }}</a> 
+      {{ end }}
+    <section>
+<p>&nbsp;</p>
+      {{- .Content -}}
+    </section>
+  </article>
+{{ end }}

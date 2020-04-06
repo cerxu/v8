@@ -1,0 +1,27 @@
+<header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+
+  <div class="navbar-nav-scroll">
+    <ul class="navbar-nav bd-navbar-nav flex-row">
+
+      <li class="nav-item">
+        <a class="nav-link {% if page.title == "Oil on Canvas" %}active{% endif %}" href="/kunst">OilOnCanvas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link {% if page.title == "Writings" %}active{% endif %}" href="/literatur">Writings</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" {% if page.title == "Work in Progress" %}active{% endif %}" href="/wip">/>WorkInProgress</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" {% if page.title == "Kontakt" %}active{% endif %}" href="/ctc">>ReachMe</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" {% if page.title == "Versionengeschichte" %}active{% endif %}" href="/hist">>Histoire</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" {% if page.title == "Vita/e" %}active{% endif %}" href="/vita">>vita/e</a>
+      </li>
+    </ul>
+  </div>
+
+</header>
